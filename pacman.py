@@ -45,7 +45,6 @@ def eval_genomes(genomes, config):
             if lives < 3:
                 done = True    
             
-            #x_pos_prev = x_pos
             genome.fitness = current_fitness
             
         # Print the genome id and its fitness
